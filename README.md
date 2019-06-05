@@ -3,9 +3,9 @@ Juego Senku C++
 
 o Requisitos
 
--Instalaciòn de IDE C++ (CLion).
--Copiar y pegar el còdigo.
--DISFRUTAR.
+- Instalaciòn de IDE C++ (CLion).
+- Copiar y pegar el còdigo.
+- DISFRUTAR.
 
 o Instrucciones de uso
 - Al iniciar el juego Senku, se mostrarà en pantalla un menù donde se eligirà la forma del tablero de su preferencia (inglès, francès, asimètrico).
@@ -19,6 +19,6 @@ o Reglas del juego
 - Gana si logra dejar sólo una ficha en el tablero. Pierde si no tiene más movimientos posibles.
 
 o Integrantes
--Alejandra Janice Torres Rojas
--Katrine Nicolle Rengifo Bardales
--Alonso Martìn Sànchez Paredes
+- Alejandra Janice Torres Rojas
+- Katrine Nicolle Rengifo Bardales
+- Alonso Martìn Sànchez Paredes
