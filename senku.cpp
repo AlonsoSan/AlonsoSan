@@ -84,7 +84,7 @@ bool validacioningreso(char matriz[][45],
 						int filafinal,  int columnafinal) 
 { 
 	//posicion inical llena (0) posicion final vacia (+)
-	if((matriz[filainicio][columnainicio] == '0') and 
+	if((matriz[filainicio][columnainicio] == '0') && 
 		(matriz[filafinal][columnafinal] == '+'))
 	{
 		int a=filainicio - filafinal;
@@ -94,9 +94,9 @@ bool validacioningreso(char matriz[][45],
 		a=positivo(a);
 		b=positivo(b);
 		//validar movimiento vertical u horizontal
-		if( ((a==0) and (b==12)) or ((a==4) and (b==0)) )
+		if( ((a==0) && (b==12)) || ((a==4) && (b==0)) )
 		{
-			if( (a==0) and (b==12) )
+			if( (a==0) && (b==12) )
 			{
 				if( d>=0 )
 				{
@@ -209,9 +209,9 @@ void juego(char matriz[][45])
 				int d=b;
 				a=positivo(a);
 				b=positivo(b);
-				if( ((a==0) and (b==12)) or ((a==4) and (b==0)) )
+				if( ((a==0) && (b==12)) || ((a==4) && (b==0)) )
 				{
-					if( (a==0) and (b==12) )
+					if( (a==0) && (b==12) )
 					{
 						if( d>=0 )
 						{
@@ -514,7 +514,7 @@ void asignarForma(int forma)
 //Imprimir menu inicio
 void inicio() 
 { 
-	cout << "    Menú - Juego Senku"<<endl;
+	cout << "                  Menú - Juego Senku"<<endl;
 	cout << "---------------------------------------------------------"<<endl;
 	cout << "	1. Estilo ingles"<<endl;
 	cout << "	2. Estilo frances"<<endl;
