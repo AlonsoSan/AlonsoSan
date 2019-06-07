@@ -15,7 +15,7 @@ o Instrucciones de uso
 o Reglas del juego
 - Al inicio el jugador mueve una ficha a un espacio vacío, obligadamente comiendo a otra ficha.
 - Para comer una ficha se debe saltar sobre ella. La ficha comida se retira del tablero.
-- Las fichas se mueven en forma horizontal y vertical y sólo salta sobre una ficha. No pueden moverse en diagonal.
+- Las fichas se mueven en forma horizontal y vertical y sólo salta sobre una ficha. No pueden moverse en diagonal ni salirse del tablero.
 - Gana si logra dejar sólo una ficha en el tablero. Pierde si no tiene más movimientos posibles.
 
 o Integrantes
